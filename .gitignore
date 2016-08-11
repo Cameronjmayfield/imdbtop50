@@ -1,0 +1,76 @@
+## intelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+target-eclipse
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# load test bundle
+load-test/bundle/load-test*
+
+## java 
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+## maven
+target/
+
+# Netbeans
+nb-configuration.xml
+/.springBeans
+admin/keychest-admin.log
+external-api-docs/keychest-extapi.log
+**/*.log.gz
+
+# node modules
+node_modules/
+
+# Mac turds
+.DS_Store
+
+# Selenium test failures
+screenshots/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+.terraform
+
+prod
+unlink.log*
+scripts/vppa/all_files
+scripts/vppa/big_file
